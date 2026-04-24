@@ -11,7 +11,14 @@ function MainSection() {
           <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
         </div>
 
-        <button type="button" className="bg-white rounded-[20px] tablet:rounded-[28px] w-50 h-10 tablet:h-14 text-purple-700 text-[12px] tablet:text-[18px] leading-base font-poppins shadow-[1px_3px_5px_rgba(0,0,0,0.25)]">
+        <button 
+          type="button" 
+          className="
+            bg-white rounded-[20px] tablet:rounded-[28px] w-50 h-10 tablet:h-14 
+            text-purple-700 text-[12px] tablet:text-[18px] leading-base font-poppins shadow-[1px_3px_5px_rgba(0,0,0,0.25)]
+            hover:bg-magenta-400 hover:text-white transition-all cursor-pointer
+          "
+        >
           Register
         </button>
       </div>
