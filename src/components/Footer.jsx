@@ -6,7 +6,7 @@ import SocialMediaIcon from './SocialMediaIcon';
 
 function Footer() {
   return (
-    <div className="self-center flex gap-4">
+    <div className="self-center desktop:self-end flex gap-4">
       <SocialMediaIcon icon={faFacebookF} />
       <SocialMediaIcon icon={faTwitter} />
       <SocialMediaIcon icon={faInstagram} />

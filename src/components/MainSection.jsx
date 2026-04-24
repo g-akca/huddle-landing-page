@@ -2,12 +2,12 @@ import illustration from "/images/illustration-mockups.svg";
 
 function MainSection() {
   return (
-    <main className="flex flex-col gap-14 tablet:gap-10">
-      <img src={illustration} alt="Illustration" />
+    <main className="flex flex-col desktop:flex-row gap-14 tablet:gap-10 desktop:gap-14 desktop:items-center">
+      <img src={illustration} alt="Illustration" className="desktop:w-174" />
 
-      <div className="flex flex-col gap-8 tablet:gap-10 items-center">
-        <div className="flex flex-col gap-6 text-center tablet:px-11">
-          <h1 className="font-poppins font-semibold text-[24px] tablet:text-[40px] leading-[125%] tablet:px-2">Build The Community Your Fans Will Love</h1>
+      <div className="flex flex-col gap-8 tablet:gap-10 items-center desktop:items-start text-center desktop:text-start">
+        <div className="flex flex-col gap-6 tablet:px-11 desktop:px-0">
+          <h1 className="font-poppins font-semibold text-[24px] tablet:text-[40px] leading-[125%]">Build The Community Your Fans Will Love</h1>
           <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
         </div>
 
