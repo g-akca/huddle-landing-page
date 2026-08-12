@@ -6,11 +6,11 @@ import SocialMediaIcon from './SocialMediaIcon';
 
 function Footer() {
   return (
-    <div className="self-center desktop:self-end flex gap-4">
+    <footer className="self-center desktop:self-end flex gap-4">
       <SocialMediaIcon icon={faFacebookF} />
       <SocialMediaIcon icon={faTwitter} />
       <SocialMediaIcon icon={faInstagram} />
-    </div>
+    </footer>
   )
 }
 
