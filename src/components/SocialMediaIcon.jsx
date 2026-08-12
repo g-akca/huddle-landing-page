@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function SocialMediaIcon({ icon }) {
+function SocialMediaIcon({ icon, label }) {
   return (
     <a 
       href="#" 
+      aria-label={label}
       className="
         h-7 tablet:h-10 aspect-square border-white border rounded-full flex justify-center items-center 
         hover:border-pink-400 hover:text-pink-400 transition-all
