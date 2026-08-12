@@ -3,7 +3,7 @@ import illustration from "/images/illustration-mockups.svg";
 function MainSection() {
   return (
     <main className="flex flex-col desktop:flex-row gap-14 tablet:gap-10 desktop:gap-14 desktop:items-center">
-      <img src={illustration} alt="Illustration" className="desktop:w-174" />
+      <img src={illustration} alt="" className="desktop:w-174" />
 
       <div className="flex flex-col gap-8 tablet:gap-10 items-center desktop:items-start text-center desktop:text-start">
         <div className="flex flex-col gap-6 tablet:px-11 desktop:px-0">
